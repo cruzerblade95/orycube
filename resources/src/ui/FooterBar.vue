@@ -5,11 +5,6 @@
     >
         <u class="footer-menu w-full lg:hidden">
             <li>
-                <router-link to="/referral">
-                    <i class="bi bi-house-heart"></i>Home
-                </router-link>
-            </li>
-            <li>
                 <router-link to="/dashboard">
                     <i class="bi bi-bar-chart-line-fill"></i>Market
                 </router-link>
@@ -18,6 +13,11 @@
                 <a href="/app/futures/BTC/USDT">
                     <i class="bi bi-rocket-takeoff"></i>Futures
                 </a>
+            </li>
+            <li>
+                <router-link to="/referral">
+                    <i class="bi bi-house-heart"></i>Home
+                </router-link>
             </li>
             <li>
                 <router-link to="/trade/BTC/USDT">

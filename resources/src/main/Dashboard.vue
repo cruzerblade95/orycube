@@ -1,4 +1,155 @@
 <template>
+  <div class="card card-profile">
+    <div class="card-body">
+
+      <div class="grid gap-5 xs:grid-cols-3 md:grid-cols-3 lg:grid-cols-3">
+        <div class="card text-center">
+          <a href="/trade/BTC/USDT">
+            <div class="p-5">
+              <div class="my-3">
+                <span class="icon-bg rounded-full bg-gray-100 p-2 shadow dark:border dark:bg-gray-700 dark:shadow-lg">
+                  <i class="bi bi-clipboard2-pulse text-xl font-medium"></i>
+                </span>
+              </div>
+              <!-- <h2 class="font-medium">4</h2> -->
+              <p class="card-text">Spot Trade</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="card text-center">
+          <a href="/app/futures/BTC/USDT">
+            <div class="p-5">
+              <div class="my-3">
+                <span class="icon-bg rounded-full bg-gray-100 p-2 shadow dark:border dark:bg-gray-700 dark:shadow-lg"><i class="bi bi-clipboard2-data text-xl font-medium"></i></span>
+              </div>
+              <!-- <h2 class="font-medium">0</h2> -->
+              <p class="card-text">Future Trade</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="card text-center">
+          <a href="/app/binary">
+            <div class="p-5">
+              <div class="my-3">
+                <span class="icon-bg rounded-full bg-gray-100 p-2 shadow dark:border dark:bg-gray-700 dark:shadow-lg"><i class="bi bi-graph-up text-xl font-medium"></i></span>
+              </div>
+              <!-- <h2 class="font-medium">1230 $</h2> -->
+              <p class="card-text">Binary Trade</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="grid gap-5 xs:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 mt-1">
+        <div class="card text-center">
+          <a href="/app/staking">
+            <div class="p-5">
+              <div class="my-3">
+                <span class="icon-bg rounded-full bg-gray-100 p-2 shadow dark:border dark:bg-gray-700 dark:shadow-lg"><i class="bi bi-boxes text-xl font-medium"></i></span>
+              </div>
+              <span>
+                <!-- <h2 class="text-success">43.50 $</h2> -->
+                <p class="card-text">Stake Earning</p>
+              </span>
+            </div>
+          </a>
+        </div>
+
+        <div class="card text-center">
+          <a href="/app/investment">
+            <div class="p-5">
+              <div class="my-3">
+                <span class="icon-bg rounded-full bg-gray-100 p-2 shadow dark:border dark:bg-gray-700 dark:shadow-lg">
+                  <i class="bi bi-stack-overflow text-xl font-medium"></i>
+                </span>
+              </div>
+              <!-- <h2 class="font-medium">4</h2> -->
+              <p class="card-text">Dual Investment</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="card text-center">
+          <a href="/app/bot">
+            <div class="p-5">
+              <div class="my-3">
+                <span class="icon-bg rounded-full bg-gray-100 p-2 shadow dark:border dark:bg-gray-700 dark:shadow-lg"><i class="bi bi-robot text-xl font-medium"></i></span>
+              </div>
+              <!-- <h2 class="font-medium">0</h2> -->
+              <p class="card-text">AI Trade</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="grid gap-5 xs:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 mt-1">
+        <div class="card text-center">
+          <a href="/app/ico">
+            <div class="p-5">
+              <div class="my-3">
+                <span class="icon-bg rounded-full bg-gray-100 p-2 shadow dark:border dark:bg-gray-700 dark:shadow-lg">
+                  <i class="bi bi-cash-coin text-xl font-medium"></i>
+                </span>
+              </div>
+              <!-- <h2 class="font-medium">1230 $</h2> -->
+              <p class="card-text">ICO Launchpad</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="card text-center">
+          <a href="/app/wallets">
+            <div class="p-5">
+              <div class="my-3">
+                <span class="icon-bg rounded-full bg-gray-100 p-2 shadow dark:border dark:bg-gray-700 dark:shadow-lg">
+                  <i class="bi bi-wallet2 text-xl font-medium"></i>
+                </span>
+              </div>
+              <span>
+                <!-- <h2 class="text-success">43.50 $</h2> -->
+                <p class="card-text">Wallet</p>
+              </span>
+            </div>
+          </a>
+        </div>
+
+        <div class="card text-center">
+          <a href="/app/referral">
+            <div class="p-5">
+              <div class="my-3">
+                <span class="icon-bg rounded-full bg-gray-100 p-2 shadow dark:border dark:bg-gray-700 dark:shadow-lg">
+                  <i class="bi bi-diagram-3 text-xl font-medium"></i>
+                </span>
+              </div>
+              <span>
+                <!-- <h2 class="text-success">43.50 $</h2> -->
+                <p class="card-text">My Network</p>
+              </span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+        <!-- <div class="row">
+          <div class="col">
+            <img
+              :src="'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png'"
+              class="rounded-full shadow-lg"
+              height="96"
+              width="96"
+            />
+          </div>
+          <div class="col">
+            Column
+          </div>
+        </div> -->
+
+
+    </div>
+  </div>
+
   <div class="mb-4 border-b border-gray-200 dark:border-gray-700">
     <ul
       id="myTab"
